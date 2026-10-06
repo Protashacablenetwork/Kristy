@@ -1,0 +1,231 @@
+{
+  "members": [
+    {
+      "id": "Sel001",
+      "name": "মোঃ লানজু",
+      "phone": "01906381800",
+      "address": "দত্তপাড়া",
+      "joinMonth": 4,
+      "joinYear": 2026,
+      "startMonth": 5,
+      "startYear": 2026,
+      "joinDate": "May 2026",
+      "taka": 100000,
+      "profitRate": 0.2,
+      "tenureMonths": 10,
+      "photo": "https://i.postimg.cc/m2CRPwmD/670832F113F7439C9509C482FE654E12-jshdhd.jpg",
+      "months": {
+        "June 2026": 12000,
+        "July 2026": 12000,
+        "August 2026": 12000
+      },
+      "notes": "গুগল স্প্রেডশিট সদস্য"
+    },
+    {
+      "id": "Sel0003",
+      "name": "মো:বেলাল",
+      "phone": "01922791556",
+      "address": "দও পাড়া",
+      "joinMonth": 5,
+      "joinYear": 2026,
+      "startMonth": 6,
+      "startYear": 2026,
+      "joinDate": "Jun 2026",
+      "taka": 30000,
+      "profitRate": 0.2,
+      "tenureMonths": 10,
+      "months": {
+        "July 2026": 3600,
+        "August 2026": 3600
+      },
+      "notes": "গুগল স্প্রেডশিট সদস্য"
+    },
+    {
+      "id": "Sel0004",
+      "name": "মো:কাদির",
+      "phone": "",
+      "address": "কুশলনগর",
+      "joinMonth": 5,
+      "joinYear": 2026,
+      "startMonth": 6,
+      "startYear": 2026,
+      "joinDate": "Jun 2026",
+      "taka": 50000,
+      "profitRate": 0.2,
+      "tenureMonths": 10,
+      "months": {
+        "July 2026": 6000,
+        "August 2026": 6000
+      },
+      "notes": "গুগল স্প্রেডশিট সদস্য"
+    },
+    {
+      "id": "Sel0005",
+      "name": "শী বীরবল",
+      "phone": "01732764091",
+      "address": "চরশিমুল চড়া",
+      "joinMonth": 7,
+      "joinYear": 2026,
+      "startMonth": 8,
+      "startYear": 2026,
+      "joinDate": "Aug 2026",
+      "taka": 30000,
+      "profitRate": 0.2,
+      "tenureMonths": 10,
+      "months": {},
+      "notes": "গুগল স্প্রেডশিট সদস্য"
+    },
+    {
+      "id": "Sel0006",
+      "name": "মো: সোহেল",
+      "phone": "01908016265",
+      "address": "কুশলনগর",
+      "joinMonth": 7,
+      "joinYear": 2026,
+      "startMonth": 8,
+      "startYear": 2026,
+      "joinDate": "Aug 2026",
+      "taka": 70000,
+      "profitRate": 0.2,
+      "tenureMonths": 10,
+      "months": {},
+      "notes": "গুগল স্প্রেডশিট সদস্য"
+    }
+  ],
+  "collections": [
+    {
+      "id": "col-sheet-Sel001-12",
+      "receiptNo": "REC-SHEET-Sel001-12",
+      "memberId": "Sel001",
+      "memberName": "মোঃ লানজু",
+      "monthKey": "June 2026",
+      "amount": 12000,
+      "date": "2026-06-15",
+      "paymentMethod": "Cash",
+      "collectorName": "মোঃ শিপন",
+      "notes": "গুগল স্প্রেডশিট কিস্তি"
+    },
+    {
+      "id": "col-sheet-Sel001-13",
+      "receiptNo": "REC-SHEET-Sel001-13",
+      "memberId": "Sel001",
+      "memberName": "মোঃ লানজু",
+      "monthKey": "July 2026",
+      "amount": 12000,
+      "date": "2026-07-15",
+      "paymentMethod": "Cash",
+      "collectorName": "মোঃ শিপন",
+      "notes": "গুগল স্প্রেডশিট কিস্তি"
+    },
+    {
+      "id": "col-sheet-Sel001-14",
+      "receiptNo": "REC-SHEET-Sel001-14",
+      "memberId": "Sel001",
+      "memberName": "মোঃ লানজু",
+      "monthKey": "August 2026",
+      "amount": 12000,
+      "date": "2026-08-15",
+      "paymentMethod": "Cash",
+      "collectorName": "মোঃ শিপন",
+      "notes": "গুগল স্প্রেডশিট কিস্তি"
+    },
+    {
+      "id": "col-sheet-Sel0003-13",
+      "receiptNo": "REC-SHEET-Sel0003-13",
+      "memberId": "Sel0003",
+      "memberName": "মো:বেলাল",
+      "monthKey": "July 2026",
+      "amount": 3600,
+      "date": "2026-07-15",
+      "paymentMethod": "Cash",
+      "collectorName": "মোঃ শিপন",
+      "notes": "গুগল স্প্রেডশিট কিস্তি"
+    },
+    {
+      "id": "col-sheet-Sel0003-14",
+      "receiptNo": "REC-SHEET-Sel0003-14",
+      "memberId": "Sel0003",
+      "memberName": "মো:বেলাল",
+      "monthKey": "August 2026",
+      "amount": 3600,
+      "date": "2026-08-15",
+      "paymentMethod": "Cash",
+      "collectorName": "মোঃ শিপন",
+      "notes": "গুগল স্প্রেডশিট কিস্তি"
+    },
+    {
+      "id": "col-sheet-Sel0004-13",
+      "receiptNo": "REC-SHEET-Sel0004-13",
+      "memberId": "Sel0004",
+      "memberName": "মো:কাদির",
+      "monthKey": "July 2026",
+      "amount": 6000,
+      "date": "2026-07-15",
+      "paymentMethod": "Cash",
+      "collectorName": "মোঃ শিপন",
+      "notes": "গুগল স্প্রেডশিট কিস্তি"
+    },
+    {
+      "id": "col-sheet-Sel0004-14",
+      "receiptNo": "REC-SHEET-Sel0004-14",
+      "memberId": "Sel0004",
+      "memberName": "মো:কাদির",
+      "monthKey": "August 2026",
+      "amount": 6000,
+      "date": "2026-08-15",
+      "paymentMethod": "Cash",
+      "collectorName": "মোঃ শিপন",
+      "notes": "গুগল স্প্রেডশিট কিস্তি"
+    }
+  ],
+  "settings": {
+    "isDarkMode": false,
+    "themeColor": "teal",
+    "tagline": "কিস্তি ম্যানেজমেন্ট",
+    "address": "টানা ব্রীজ আনন্দ বাজার, ইসলামপুর,জামালপুর",
+    "phone": "01982-972228",
+    "lastSyncedAt": "১:০৯:৪১ PM",
+    "somitiName": "দশ তারা সমবায় সমিতি",
+    "googleAppsScriptUrl": "https://script.google.com/macros/s/AKfycby5Wj3U96X1e0sVIFD7Hck0kH13uSgQneLsNp6mpvmMCBwZX1cT3a0Yp33XbYgqCceI/exec",
+    "collectorName": "মোঃ শিপন",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/13-pQ1jv8DACdfRLnfOVrBAkCCNV3Bz5L5OllWMad2s4/export?format=csv"
+  },
+  "users": [
+    {
+      "username": "admin",
+      "role": "admin",
+      "createdAt": "2026-01-01",
+      "id": "usr-admin",
+      "name": "ম্যানেজার (অ্যাডমিন)",
+      "isOnline": true,
+      "password": "admin123",
+      "phone": "01711223344",
+      "lastActive": "2026-09-18T08:05:08.754Z"
+    },
+    {
+      "username": "shipon",
+      "createdAt": "2026-01-10",
+      "name": "মোঃ শিপন (ফিল্ড অফিসার)",
+      "lastActive": "2026-09-18T06:55:47.103Z",
+      "role": "user",
+      "id": "usr-collector1",
+      "isOnline": false,
+      "password": "123456",
+      "phone": "01812345678"
+    },
+    {
+      "password": "123456",
+      "role": "viewer",
+      "isOnline": false,
+      "lastActive": "2026-09-17T07:15:47.103Z",
+      "name": "সাধারণ পর্যবেক্ষক (ভিউয়ার)",
+      "createdAt": "2026-02-01",
+      "phone": "01900000000",
+      "username": "viewer",
+      "id": "usr-viewer1"
+    }
+  ],
+  "deletedMemberIds": [],
+  "deletedCollectionIds": [],
+  "updatedAt": 1790882706079
+}

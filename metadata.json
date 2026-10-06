@@ -1,0 +1,6 @@
+{
+  "name": "সমিতি কিস্তি ম্যানেজমেন্ট",
+  "description": "উন্নত ডিজাইনের সমবায় সমিতি কিস্তি ও ঋণ ব্যবস্থাপনা সফটওয়্যার সিস্টেম",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

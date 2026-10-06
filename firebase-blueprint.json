@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Member": {
+      "title": "Member",
+      "description": "Somiti member with loan and monthly payment records",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique member identifier" },
+        "name": { "type": "string", "description": "Full name of the member" },
+        "phone": { "type": "string", "description": "Phone number" },
+        "address": { "type": "string", "description": "Member address" },
+        "joinDate": { "type": "string", "description": "Join month and year" },
+        "taka": { "type": "number", "description": "Loan amount in BDT" },
+        "profitRate": { "type": "number", "description": "Profit rate (e.g. 0.20)" },
+        "tenureMonths": { "type": "number", "description": "Duration in months" },
+        "photo": { "type": "string", "description": "Profile picture URL or base64" },
+        "notes": { "type": "string", "description": "Notes regarding the member" }
+      },
+      "required": ["id", "name", "taka"]
+    },
+    "CollectionRecord": {
+      "title": "CollectionRecord",
+      "description": "Installment collection receipt entry",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Record unique ID" },
+        "receiptNo": { "type": "string", "description": "Voucher or receipt number" },
+        "memberId": { "type": "string", "description": "Target member ID" },
+        "memberName": { "type": "string", "description": "Target member name" },
+        "amount": { "type": "number", "description": "Collected amount in BDT" },
+        "monthKey": { "type": "string", "description": "Month of installment" },
+        "date": { "type": "string", "description": "Collection date" },
+        "paymentMethod": { "type": "string", "description": "Payment method (Cash, bKash, etc.)" },
+        "collectorName": { "type": "string", "description": "Name of field officer or admin" },
+        "notes": { "type": "string", "description": "Additional remarks" }
+      },
+      "required": ["id", "receiptNo", "memberId", "amount", "monthKey"]
+    },
+    "SomitiData": {
+      "title": "SomitiData",
+      "description": "Combined store for somiti database backup",
+      "type": "object",
+      "properties": {
+        "updatedAt": { "type": "number", "description": "Last update timestamp" }
+      }
+    }
+  },
+  "firestore": {
+    "/somiti_data/{docId}": {
+      "schema": "SomitiData",
+      "description": "Global somiti state document"
+    },
+    "/members/{memberId}": {
+      "schema": "Member",
+      "description": "Collection of somiti members"
+    },
+    "/collections/{collectionId}": {
+      "schema": "CollectionRecord",
+      "description": "Collection of installment payment receipts"
+    }
+  }
+}
